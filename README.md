@@ -14,7 +14,19 @@ Install Urbit binary by following the steps of chapter two of [this document](ht
 Optionally: Watch the first 5 minutes of ["Welcome to Urbit"](https://www.youtube.com/watch?v=g1qroWiZF90) (Already 7 years old but still on point)
 
 
+## Presentation
+
+Please have a look at the [slides](slides.md).
+
+
+## Cheatsheet
+
+[This cheatsheet](cheatsheet.md) helps during the ensemble.
+
+
 ## Further Resources
+
+These resources are for further investigation after the ensemble.
 
 ### Documentation
 
