@@ -1,5 +1,7 @@
 # Cheatsheet
 
+For a version with syntax highlighting see [here](https://talfus-laddus.de/projects/urbit/hoon-learning-ensemble/cheatsheet.html)
+
 ## Setup
 
 ```bash
