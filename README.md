@@ -9,9 +9,9 @@ Urbit is a clean-slate OS, network and single pure function.
 
 ## Required Preparation
 
-Install Urbit binary by following the steps of chapter two of [this document](https://urbit.org/getting-started/cli)
+Install Urbit binary by following the steps of chapter two of [this document](https://urbit.org/getting-started/cli).
 
-Optionally: Watch the first 5 minutes of ["Welcome to Urbit"](https://www.youtube.com/watch?v=g1qroWiZF90) (Already 7 years old but still on point)
+Optionally: Watch the first 5 minutes of ["Welcome to Urbit"](https://www.youtube.com/watch?v=g1qroWiZF90) (Already 7 years old but still on point).
 
 
 ## Presentation
