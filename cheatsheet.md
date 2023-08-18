@@ -2,6 +2,8 @@
 
 For a version with syntax highlighting see [here](https://talfus-laddus.de/projects/urbit/hoon-learning-ensemble/cheatsheet.html)
 
+For the complete cheatsheet have a look at [the urbit.org one](https://developers.urbit.org/reference/hoon/cheat-sheet)
+
 ## Setup
 
 ```bash
@@ -14,6 +16,7 @@ $ urbit zod     # run fake ship
 ```hoon
 :dojo|wipe      :: wipe dojo subject
 |mount %base    :: create %base folder on earth
+|commit %base   :: sync %base folder on earth
 ```
 
 ## Hoon
@@ -21,24 +24,30 @@ $ urbit zod     # run fake ship
 ```hoon
 .               :: current subject
 a.b.c           :: search path
-..arm           :: core in which ++arm is defined
+..add           :: core in which add is defined
 !>(1)           :: cell of type and value
+!=  add         :: nock code of add
 ? [1 2]         :: inferred type
 ```
 
 ```hoon
 ::  nock
+::
 .+              :: increment with Nock 4
 .=  5  9        :: test for equality
 ::  cells
+::
 :-  5  9        :: construct cell (two-tuple)
 [5 9]           :: syntactic sugar for cells
 ::  calls
+::
 %-  add  5  9   :: call a function
 ::  subject
+::
 =>  9  .        :: compose two expressions
 =+  n=5         :: pin a value to subject
 ::  cores
+::
 |%              :: produce a core, `[code data]`
   ++  ten  10   :: produce an arm
 --              :: end of core
@@ -134,4 +143,3 @@ tis  '='           ::  'tis tis, it is
 wut  '?'           ::  wut, what?
 zap  '!'           ::  zap! bang! crash!!
 ```
-
