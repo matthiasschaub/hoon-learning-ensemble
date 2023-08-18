@@ -258,9 +258,3 @@ in the right side of the binary tree
 --                          :: end of core
 increment-100               :: evaluate code at named adressess
 ```
-
-
-# Auras
-
-Hoon's type system is a metadata layer over Nock,
-which tells you to parse the underlying integer a certain way.
